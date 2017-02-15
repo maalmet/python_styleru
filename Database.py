@@ -2,7 +2,7 @@ import json
 import requests
 
 
-api_key = input("I need your API key again: ")
+api_key = input("Your API key again: ")
 
 films = []
 i = 0

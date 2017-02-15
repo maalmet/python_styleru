@@ -2,7 +2,7 @@ import urllib.request
 import urllib.parse
 import json
 
-api_key = input("I need your API key: ")
+api_key = input("Your API key: ")
 
 def load_json_data_from_url(base_url, url_params):
     url = '%s?%s' % (base_url, urllib.parse.urlencode(url_params))
