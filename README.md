@@ -8,7 +8,7 @@ You will need to enter API key
 Database.py
 
 API key is needed. 
-This script will make a JSON file films.json with 1000 films from TMBd
+This script will make a JSON file films.json with 1000 films from TMBd. Uses module requests
 ### Task 3
 Same word.py
 
