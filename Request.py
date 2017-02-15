@@ -4,6 +4,7 @@ import json
 
 api_key = input("Your API key: ")
 
+
 def load_json_data_from_url(base_url, url_params):
     url = '%s?%s' % (base_url, urllib.parse.urlencode(url_params))
     response = urllib.request.urlopen(url).read().decode('utf-8')
@@ -22,7 +23,6 @@ def make_tmdb_api_request(method, api_key, extra_params=None):
 
 
 print('Budget for Saw II:', make_tmdb_api_request(method='/movie/215', api_key=api_key)['budget'])
-input()
 
 
 

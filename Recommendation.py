@@ -1,4 +1,5 @@
 import json
+
 name_f = input("Enter film and I'll give you better one: ")
 
 with open('films.json', encoding='utf-8') as data_file:
@@ -114,4 +115,3 @@ if film_info: # Если фильм есть в базе
 else:
     recommendate_by_name(name_f)
 
-input()

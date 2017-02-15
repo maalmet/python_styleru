@@ -1,7 +1,6 @@
 import json
 import requests
 
-
 api_key = input("Your API key again: ")
 
 films = []
@@ -16,4 +15,3 @@ while len(films) < 1000:
 f = open("films.json", "w")
 json.dump(films, f)
 f.close()
-input()
