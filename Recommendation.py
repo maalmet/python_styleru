@@ -113,3 +113,5 @@ if film_info: # Если фильм есть в базе
         print(film, weight)
 else:
     recommendate_by_name(name_f)
+
+input()
