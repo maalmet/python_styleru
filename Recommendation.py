@@ -111,7 +111,7 @@ film_info = find_info_film_if_in_base(name_f)
 if film_info: # Если фильм есть в базе
     films = recommendate_for_film_in_base(film_info)
     for film, weight in sorted(films.items(), key=lambda x: x[1], reverse=True)[:10]:
-        print(film)
+        print(film[0])
 else:
     recommendate_by_name(name_f)
 
